@@ -1,12 +1,8 @@
-// do/while loop
+// Break & Continue in loop
 
-let i = 0;
-let isSuccess = false;
-
-do {
-  console.log('card recharge failed ' + i);
-  i++;
-  if (true) {
-    isSuccess = true;
+for (let i = 0; i < 10; i++) {
+  if (i % 2 !== 0) {
+    continue;
   }
-} while (!isSuccess && i <= 10);
+  console.log(i);
+}
