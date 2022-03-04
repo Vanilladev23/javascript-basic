@@ -1,9 +1,12 @@
-// While loop
-let myArray = ['JavaScript', 'Python', 'Ruby', 'Java'];
+// do/while loop
 
 let i = 0;
+let isSuccess = false;
 
-while (i < myArray.length) {
-  console.log(myArray[i]);
+do {
+  console.log('card recharge failed ' + i);
   i++;
-}
+  if (true) {
+    isSuccess = true;
+  }
+} while (!isSuccess && i <= 10);
