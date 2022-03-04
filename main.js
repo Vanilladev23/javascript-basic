@@ -1,10 +1,9 @@
-// For/of loop
+// While loop
+let myArray = ['JavaScript', 'Python', 'Ruby', 'Java'];
 
-let myInfo = {
-  name: 'John',
-  age: 19,
-};
+let i = 0;
 
-for (let value of Object.values(myInfo)) {
-  console.log(value);
+while (i < myArray.length) {
+  console.log(myArray[i]);
+  i++;
 }
