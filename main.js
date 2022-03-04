@@ -1,13 +1,5 @@
-// Vòng lặp lổng nhau - Nested loop
+// Loop...
 
-let myArray = [
-  [1, 2],
-  [3, 4],
-  [5, 6],
-];
-
-for (let i = 0; i < myArray.length; i++) {
-  for (let j = 0; j < myArray[i].length; j++) {
-    console.log(myArray[i][j]);
-  }
+for (let i = 0; i <= 100; i += 5) {
+  console.log(i);
 }
