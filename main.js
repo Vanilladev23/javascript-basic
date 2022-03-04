@@ -1,8 +1,7 @@
-// For loop qua mảng
-let myArray = ['Javascript', 'Python', 'PHP', 'Ruby', 'Java', 'Dart'];
+// For/in loop
 
-let arrayLength = myArray.length;
+let languages = ['Javascript', 'Python', 'Java', 'C++'];
 
-for (let i = 0; i < arrayLength; i++) {
-  console.log(myArray[i]);
+for (let key in languages) {
+  console.log(languages[key]);
 }
