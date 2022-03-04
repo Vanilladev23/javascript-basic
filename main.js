@@ -1,7 +1,10 @@
-// For/in loop
+// For/of loop
 
-let languages = ['Javascript', 'Python', 'Java', 'C++'];
+let myInfo = {
+  name: 'John',
+  age: 19,
+};
 
-for (let key in languages) {
-  console.log(languages[key]);
+for (let value of Object.values(myInfo)) {
+  console.log(value);
 }
