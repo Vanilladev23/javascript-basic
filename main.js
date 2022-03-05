@@ -41,7 +41,10 @@ let courses = [
     coin: 250,
   },
 ];
-let course = courses.filter(function (course, index) {
-  return course.name === 'Ruby';
-});
-console.log(course);
+function courseHandler(course) {
+  return `h2>${course.name}</h2>`;
+}
+
+let newCourses = courses.map(courseHandler);
+
+console.log(newCourses.join(''));
